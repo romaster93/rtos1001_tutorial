@@ -45,14 +45,14 @@
            
 7. 마지막으로 xavier을 recovery mode로 변경하고 flash 시켜줍니다.  
   
-  ps.리커버리 하는 방법은 맨 안쪽 버튼을 누른상태에서 가운데 리셋버튼을 한번 누르고 처음 누른 버튼을 3초뒤에 땝니다.
+    ps.리커버리 하는 방법은 맨 안쪽 버튼을 누른상태에서 가운데 리셋버튼을 한번 누르고 처음 누른 버튼을 3초뒤에 땝니다.
   
            sudo ./flash.sh jetson-xavier mmcblk0p1
 
 
 flash가 끝나면 xavier에서 자동으로 booting이 이루어집니다. 
 host computer와 xavier의 usb를 해제하고 마우스와 키보드를 해당 c타입 단자에 연결해줍니다.
-ubuntu 설치를 진행하고 설치가 끝나면 reboot을 진행해주면 끝닙니다.
+ubuntu 설치를 진행하고 설치가 끝나면 reboot을 진행해주면 끝납니다.
 
 주의) xavier에서 절대 sudo apt upgrade를 하시면 안됩니다. sudo apt upgrade를 진행하면 BSP에서 가져왔던 binary 파일들이  
       최신데이터로 덮어지면서 usb단자들이 일부 정상작동 하지 않게 됩니다. 
