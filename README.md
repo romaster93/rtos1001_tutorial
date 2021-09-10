@@ -17,9 +17,11 @@
        (ex. xavier 폴더 생성후 해당 폴더 안에 BSP, Tegra driver)
        
     2. 첫번째로 Tegra driver를 해제하고 생성된 Linux_for_Tegra폴더에서 rootfs폴더로 접근합니다.
+      
       ```
       cd your_forder_name
       tar - xvf your_Tegraxxx_tar_name
       cd Linux_for_Tegra/rootfs
+      ```
       
 
